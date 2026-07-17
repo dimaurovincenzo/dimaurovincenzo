@@ -33,8 +33,38 @@ Dal requisito di business alla produzione: software sicuro, osservabile e manten
 ## Stack essenziale
 
 <p align="center">
-<code>Go</code> · <code>TypeScript</code> · <code>Node.js</code> · <code>Python</code> · <code>PostgreSQL</code> · <code>Redis</code> · <code>Docker</code> · <code>Linux</code>
+<code>TypeScript</code> · <code>Node.js</code> · <code>Python</code> · <code>PostgreSQL</code> · <code>Redis</code> · <code>Fastify</code> · <code>FastAPI</code> · <code>Docker</code> · <code>Linux</code> · <code>Go</code>
 </p>
+
+## Competenze validate sui progetti
+
+<table>
+<tr>
+<td width="50%" valign="top">
+<h3>Avanzato</h3>
+<p><strong>Backend architecture</strong><br>Servizi modulari, sistemi distribuiti e contratti API.</p>
+<p><strong>TypeScript / Node.js</strong><br>Fastify, validazione, autenticazione e WebSocket.</p>
+<p><strong>Python</strong><br>FastAPI, pipeline dati, motori deterministici e automazione.</p>
+<p><strong>PostgreSQL / SQL</strong><br>Schema, PL/pgSQL, stored procedure, RLS e migrazioni.</p>
+<p><strong>Realtime &amp; integrazioni</strong><br>Redis, WebSocket, provider esterni e sincronizzazione dati.</p>
+</td>
+<td width="50%" valign="top">
+<h3>Intermedio–avanzato</h3>
+<p><strong>DevOps &amp; osservabilità</strong><br>Docker, Linux, CI/CD, logging, metriche e runbook.</p>
+<p><strong>Sicurezza applicativa</strong><br>JWT, 2FA, HMAC, rate limiting e audit trail.</p>
+<p><strong>AI applicata / LLM</strong><br>Inference API, rule engine, fine-tuning e quality gate.</p>
+<p><strong>Supabase &amp; servizi edge</strong><br>RPC, policy RLS, realtime, pagamenti e webhook.</p>
+</td>
+</tr>
+<tr>
+<td colspan="2" valign="top">
+<h3>Complementari · Intermedio</h3>
+<p><strong>React / TypeScript</strong> · SPA, dashboard e mobile-first &nbsp;·&nbsp; <strong>Go</strong> · agent locali e integrazione di sistema &nbsp;·&nbsp; <strong>PHP / MySQL</strong> · applicazioni gestionali</p>
+</td>
+</tr>
+</table>
+
+<p align="center"><sub>Valutazione basata su codebase private: complessità architetturale, uso reale, test, sicurezza e gestione operativa. I repository restano riservati.</sub></p>
 
 ## Dal requisito alla produzione
 
