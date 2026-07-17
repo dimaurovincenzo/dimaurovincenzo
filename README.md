@@ -29,6 +29,10 @@ Progetto e sviluppo sistemi backend affidabili, integrazioni complesse e piattaf
 - Containerizzazione, deployment Linux e introduzione di logging e monitoraggio persistenti.
 - Applicazione di modelli AI e automazioni a processi software concreti.
 
+## Attività GitHub pubblica
+
+![Statistiche dell’attività GitHub pubblica di Vincenzo Di Mauro](./profile/stats.svg)
+
 ## Contatti
 
 Se stai progettando una piattaforma backend, un’integrazione complessa o un sistema realtime, puoi contattarmi tramite [email](mailto:info@vincodelab.com) o [LinkedIn](https://www.linkedin.com/in/vdmweb/).
