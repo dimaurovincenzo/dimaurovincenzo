@@ -1,221 +1,385 @@
-
-      <svg
-        width="304"
-        height="195"
-        viewBox="0 0 304 195"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg"
-        role="img"
-        aria-labelledby="descId"
-      >
-        <title id="titleId">Attivit&#224; GitHub pubblica, Rank: C</title>
-        <desc id="descId">Stelle totali: 0, Commit totali  : 4, PR totali: 0, Segnalazioni totali: 0, Ha contribuito a (l'anno scorso): 0</desc>
-        <style>
-          .header {
-            font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
-            fill: #006AFF;
-            animation: fadeInAnimation 0.8s ease-in-out forwards;
-          }
-          @supports(-moz-appearance: auto) {
-            /* Selector detects Firefox */
-            .header { font-size: 15.5px; }
-          }
-          
-    .stat {
-      font: 600 14px 'Segoe UI', Ubuntu, "Helvetica Neue", Sans-Serif; fill: #417E87;
+<svg xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title description" viewBox="0 0 681 152" width="681" height="152">
+  <title id="title">Attività GitHub pubblica di Vincenzo Di Mauro</title>
+  <desc id="description">Calendario dei contributi pubblicamente visibili di dimaurovincenzo. Aggiornato il 17 luglio 2026.</desc>
+  <style>
+    .heading { fill: #1f2328; font: 600 16px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+    .updated { fill: #656d76; font: 12px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+    .level-0 { fill: #ebedf0; } .level-1 { fill: #9be9a8; } .level-2 { fill: #40c463; }
+    .level-3 { fill: #30a14e; } .level-4 { fill: #216e39; }
+    @media (prefers-color-scheme: dark) {
+      .heading { fill: #f0f6fc; } .updated { fill: #8b949e; } .level-0 { fill: #161b22; }
     }
-    @supports(-moz-appearance: auto) {
-      /* Selector detects Firefox */
-      .stat { font-size:12px; }
-    }
-    .stagger {
-      opacity: 0;
-      animation: fadeInAnimation 0.3s ease-in-out forwards;
-    }
-    .rank-text {
-      font: 800 24px 'Segoe UI', Ubuntu, Sans-Serif; fill: #417E87;
-      animation: scaleInAnimation 0.3s ease-in-out forwards;
-    }
-    .rank-percentile-header {
-      font-size: 14px;
-    }
-    .rank-percentile-text {
-      font-size: 16px;
-    }
-    
-    .not_bold { font-weight: 400 }
-    .bold { font-weight: 700 }
-    .icon {
-      fill: #0579C3;
-      display: block;
-    }
-
-    .rank-circle-rim {
-      stroke: #006AFF;
-      fill: none;
-      stroke-width: 6;
-      opacity: 0.2;
-    }
-    .rank-circle {
-      stroke: #006AFF;
-      stroke-dasharray: 250;
-      fill: none;
-      stroke-width: 6;
-      stroke-linecap: round;
-      opacity: 0.8;
-      transform-origin: -10px 8px;
-      transform: rotate(-90deg);
-      animation: rankAnimation 1s forwards ease-in-out;
-    }
-    
-    @keyframes rankAnimation {
-      from {
-        stroke-dashoffset: 251.32741228718345;
-      }
-      to {
-        stroke-dashoffset: 249.30743966739362;
-      }
-    }
-  
-  
-
-          
-      /* Animations */
-      @keyframes scaleInAnimation {
-        from {
-          transform: translate(-5px, 5px) scale(0);
-        }
-        to {
-          transform: translate(-5px, 5px) scale(1);
-        }
-      }
-      @keyframes fadeInAnimation {
-        from {
-          opacity: 0;
-        }
-        to {
-          opacity: 1;
-        }
-      }
-    
-          
-        </style>
-
-        
-
-        <rect
-          data-testid="card-bg"
-          x="0.5"
-          y="0.5"
-          rx="4.5"
-          height="99%"
-          stroke="#e4e2e2"
-          width="303"
-          fill="#ffffff00"
-          stroke-opacity="1"
-        />
-
-        
-      <g
-        data-testid="card-title"
-        transform="translate(25, 35)"
-      >
-        <g transform="translate(0, 0)">
-      <text
-        x="0"
-        y="0"
-        class="header"
-        data-testid="header"
-      >Attivit&#224; GitHub pubblica</text>
-    </g>
-      </g>
-    
-
-        <g
-          data-testid="main-card-body"
-          transform="translate(0, 55)"
-        >
-          
-    
-    <svg x="0" y="0">
-      <g transform="translate(0, 0)">
-    <g class="stagger" style="animation-delay: 450ms" transform="translate(25, 0)">
-      
-    <svg data-testid="icon" class="icon" viewBox="0 0 16 16" version="1.1" width="16" height="16">
-      <path fill-rule="evenodd" d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25zm0 2.445L6.615 5.5a.75.75 0 01-.564.41l-3.097.45 2.24 2.184a.75.75 0 01.216.664l-.528 3.084 2.769-1.456a.75.75 0 01.698 0l2.77 1.456-.53-3.084a.75.75 0 01.216-.664l2.24-2.183-3.096-.45a.75.75 0 01-.564-.41L8 2.694v.001z"/>
-    </svg>
-  
-      <text class="stat  bold" x="25" y="12.5">Stelle totali:</text>
-      <text
-        class="stat  bold"
-        x="224.01"
-        y="12.5"
-        data-testid="stars"
-      >0</text>
-    </g>
-  </g><g transform="translate(0, 25)">
-    <g class="stagger" style="animation-delay: 600ms" transform="translate(25, 0)">
-      
-    <svg data-testid="icon" class="icon" viewBox="0 0 16 16" version="1.1" width="16" height="16">
-      <path fill-rule="evenodd" d="M1.643 3.143L.427 1.927A.25.25 0 000 2.104V5.75c0 .138.112.25.25.25h3.646a.25.25 0 00.177-.427L2.715 4.215a6.5 6.5 0 11-1.18 4.458.75.75 0 10-1.493.154 8.001 8.001 0 101.6-5.684zM7.75 4a.75.75 0 01.75.75v2.992l2.028.812a.75.75 0 01-.557 1.392l-2.5-1A.75.75 0 017 8.25v-3.5A.75.75 0 017.75 4z"/>
-    </svg>
-  
-      <text class="stat  bold" x="25" y="12.5">Commit totali:</text>
-      <text
-        class="stat  bold"
-        x="224.01"
-        y="12.5"
-        data-testid="commits"
-      >4</text>
-    </g>
-  </g><g transform="translate(0, 50)">
-    <g class="stagger" style="animation-delay: 750ms" transform="translate(25, 0)">
-      
-    <svg data-testid="icon" class="icon" viewBox="0 0 16 16" version="1.1" width="16" height="16">
-      <path fill-rule="evenodd" d="M7.177 3.073L9.573.677A.25.25 0 0110 .854v4.792a.25.25 0 01-.427.177L7.177 3.427a.25.25 0 010-.354zM3.75 2.5a.75.75 0 100 1.5.75.75 0 000-1.5zm-2.25.75a2.25 2.25 0 113 2.122v5.256a2.251 2.251 0 11-1.5 0V5.372A2.25 2.25 0 011.5 3.25zM11 2.5h-1V4h1a1 1 0 011 1v5.628a2.251 2.251 0 101.5 0V5A2.5 2.5 0 0011 2.5zm1 10.25a.75.75 0 111.5 0 .75.75 0 01-1.5 0zM3.75 12a.75.75 0 100 1.5.75.75 0 000-1.5z"/>
-    </svg>
-  
-      <text class="stat  bold" x="25" y="12.5">PR totali:</text>
-      <text
-        class="stat  bold"
-        x="224.01"
-        y="12.5"
-        data-testid="prs"
-      >0</text>
-    </g>
-  </g><g transform="translate(0, 75)">
-    <g class="stagger" style="animation-delay: 900ms" transform="translate(25, 0)">
-      
-    <svg data-testid="icon" class="icon" viewBox="0 0 16 16" version="1.1" width="16" height="16">
-      <path fill-rule="evenodd" d="M8 1.5a6.5 6.5 0 100 13 6.5 6.5 0 000-13zM0 8a8 8 0 1116 0A8 8 0 010 8zm9 3a1 1 0 11-2 0 1 1 0 012 0zm-.25-6.25a.75.75 0 00-1.5 0v3.5a.75.75 0 001.5 0v-3.5z"/>
-    </svg>
-  
-      <text class="stat  bold" x="25" y="12.5">Segnalazioni totali:</text>
-      <text
-        class="stat  bold"
-        x="224.01"
-        y="12.5"
-        data-testid="issues"
-      >0</text>
-    </g>
-  </g><g transform="translate(0, 100)">
-    <g class="stagger" style="animation-delay: 1050ms" transform="translate(25, 0)">
-      
-    <svg data-testid="icon" class="icon" viewBox="0 0 16 16" version="1.1" width="16" height="16">
-      <path fill-rule="evenodd" d="M2 2.5A2.5 2.5 0 014.5 0h8.75a.75.75 0 01.75.75v12.5a.75.75 0 01-.75.75h-2.5a.75.75 0 110-1.5h1.75v-2h-8a1 1 0 00-.714 1.7.75.75 0 01-1.072 1.05A2.495 2.495 0 012 11.5v-9zm10.5-1V9h-8c-.356 0-.694.074-1 .208V2.5a1 1 0 011-1h8zM5 12.25v3.25a.25.25 0 00.4.2l1.45-1.087a.25.25 0 01.3 0L8.6 15.7a.25.25 0 00.4-.2v-3.25a.25.25 0 00-.25-.25h-3.5a.25.25 0 00-.25.25z"/>
-    </svg>
-  
-      <text class="stat  bold" x="25" y="12.5">Ha contribuito a (l'anno scorso):</text>
-      <text
-        class="stat  bold"
-        x="224.01"
-        y="12.5"
-        data-testid="contribs"
-      >0</text>
-    </g>
-  </g>
-    </svg>
-  
-        </g>
-      </svg>
-    
+  </style>
+  <text class="heading" x="24" y="22">Attività GitHub pubblica</text>
+  <text class="updated" x="24" y="40">Aggiornato il 17 luglio 2026</text>
+  <rect class="level-0" data-level="0" x="24" y="48" width="9" height="9" rx="2"><title>2025-07-13</title></rect>
+  <rect class="level-0" data-level="0" x="24" y="60" width="9" height="9" rx="2"><title>2025-07-14</title></rect>
+  <rect class="level-0" data-level="0" x="24" y="72" width="9" height="9" rx="2"><title>2025-07-15</title></rect>
+  <rect class="level-0" data-level="0" x="24" y="84" width="9" height="9" rx="2"><title>2025-07-16</title></rect>
+  <rect class="level-0" data-level="0" x="24" y="96" width="9" height="9" rx="2"><title>2025-07-17</title></rect>
+  <rect class="level-0" data-level="0" x="24" y="108" width="9" height="9" rx="2"><title>2025-07-18</title></rect>
+  <rect class="level-0" data-level="0" x="24" y="120" width="9" height="9" rx="2"><title>2025-07-19</title></rect>
+  <rect class="level-0" data-level="0" x="36" y="48" width="9" height="9" rx="2"><title>2025-07-20</title></rect>
+  <rect class="level-0" data-level="0" x="36" y="60" width="9" height="9" rx="2"><title>2025-07-21</title></rect>
+  <rect class="level-0" data-level="0" x="36" y="72" width="9" height="9" rx="2"><title>2025-07-22</title></rect>
+  <rect class="level-0" data-level="0" x="36" y="84" width="9" height="9" rx="2"><title>2025-07-23</title></rect>
+  <rect class="level-0" data-level="0" x="36" y="96" width="9" height="9" rx="2"><title>2025-07-24</title></rect>
+  <rect class="level-0" data-level="0" x="36" y="108" width="9" height="9" rx="2"><title>2025-07-25</title></rect>
+  <rect class="level-0" data-level="0" x="36" y="120" width="9" height="9" rx="2"><title>2025-07-26</title></rect>
+  <rect class="level-0" data-level="0" x="48" y="48" width="9" height="9" rx="2"><title>2025-07-27</title></rect>
+  <rect class="level-0" data-level="0" x="48" y="60" width="9" height="9" rx="2"><title>2025-07-28</title></rect>
+  <rect class="level-0" data-level="0" x="48" y="72" width="9" height="9" rx="2"><title>2025-07-29</title></rect>
+  <rect class="level-0" data-level="0" x="48" y="84" width="9" height="9" rx="2"><title>2025-07-30</title></rect>
+  <rect class="level-0" data-level="0" x="48" y="96" width="9" height="9" rx="2"><title>2025-07-31</title></rect>
+  <rect class="level-0" data-level="0" x="48" y="108" width="9" height="9" rx="2"><title>2025-08-01</title></rect>
+  <rect class="level-0" data-level="0" x="48" y="120" width="9" height="9" rx="2"><title>2025-08-02</title></rect>
+  <rect class="level-0" data-level="0" x="60" y="48" width="9" height="9" rx="2"><title>2025-08-03</title></rect>
+  <rect class="level-0" data-level="0" x="60" y="60" width="9" height="9" rx="2"><title>2025-08-04</title></rect>
+  <rect class="level-0" data-level="0" x="60" y="72" width="9" height="9" rx="2"><title>2025-08-05</title></rect>
+  <rect class="level-0" data-level="0" x="60" y="84" width="9" height="9" rx="2"><title>2025-08-06</title></rect>
+  <rect class="level-0" data-level="0" x="60" y="96" width="9" height="9" rx="2"><title>2025-08-07</title></rect>
+  <rect class="level-0" data-level="0" x="60" y="108" width="9" height="9" rx="2"><title>2025-08-08</title></rect>
+  <rect class="level-0" data-level="0" x="60" y="120" width="9" height="9" rx="2"><title>2025-08-09</title></rect>
+  <rect class="level-0" data-level="0" x="72" y="48" width="9" height="9" rx="2"><title>2025-08-10</title></rect>
+  <rect class="level-0" data-level="0" x="72" y="60" width="9" height="9" rx="2"><title>2025-08-11</title></rect>
+  <rect class="level-0" data-level="0" x="72" y="72" width="9" height="9" rx="2"><title>2025-08-12</title></rect>
+  <rect class="level-0" data-level="0" x="72" y="84" width="9" height="9" rx="2"><title>2025-08-13</title></rect>
+  <rect class="level-0" data-level="0" x="72" y="96" width="9" height="9" rx="2"><title>2025-08-14</title></rect>
+  <rect class="level-0" data-level="0" x="72" y="108" width="9" height="9" rx="2"><title>2025-08-15</title></rect>
+  <rect class="level-0" data-level="0" x="72" y="120" width="9" height="9" rx="2"><title>2025-08-16</title></rect>
+  <rect class="level-0" data-level="0" x="84" y="48" width="9" height="9" rx="2"><title>2025-08-17</title></rect>
+  <rect class="level-0" data-level="0" x="84" y="60" width="9" height="9" rx="2"><title>2025-08-18</title></rect>
+  <rect class="level-0" data-level="0" x="84" y="72" width="9" height="9" rx="2"><title>2025-08-19</title></rect>
+  <rect class="level-0" data-level="0" x="84" y="84" width="9" height="9" rx="2"><title>2025-08-20</title></rect>
+  <rect class="level-0" data-level="0" x="84" y="96" width="9" height="9" rx="2"><title>2025-08-21</title></rect>
+  <rect class="level-0" data-level="0" x="84" y="108" width="9" height="9" rx="2"><title>2025-08-22</title></rect>
+  <rect class="level-0" data-level="0" x="84" y="120" width="9" height="9" rx="2"><title>2025-08-23</title></rect>
+  <rect class="level-0" data-level="0" x="96" y="48" width="9" height="9" rx="2"><title>2025-08-24</title></rect>
+  <rect class="level-0" data-level="0" x="96" y="60" width="9" height="9" rx="2"><title>2025-08-25</title></rect>
+  <rect class="level-0" data-level="0" x="96" y="72" width="9" height="9" rx="2"><title>2025-08-26</title></rect>
+  <rect class="level-0" data-level="0" x="96" y="84" width="9" height="9" rx="2"><title>2025-08-27</title></rect>
+  <rect class="level-0" data-level="0" x="96" y="96" width="9" height="9" rx="2"><title>2025-08-28</title></rect>
+  <rect class="level-0" data-level="0" x="96" y="108" width="9" height="9" rx="2"><title>2025-08-29</title></rect>
+  <rect class="level-0" data-level="0" x="96" y="120" width="9" height="9" rx="2"><title>2025-08-30</title></rect>
+  <rect class="level-0" data-level="0" x="108" y="48" width="9" height="9" rx="2"><title>2025-08-31</title></rect>
+  <rect class="level-0" data-level="0" x="108" y="60" width="9" height="9" rx="2"><title>2025-09-01</title></rect>
+  <rect class="level-0" data-level="0" x="108" y="72" width="9" height="9" rx="2"><title>2025-09-02</title></rect>
+  <rect class="level-0" data-level="0" x="108" y="84" width="9" height="9" rx="2"><title>2025-09-03</title></rect>
+  <rect class="level-0" data-level="0" x="108" y="96" width="9" height="9" rx="2"><title>2025-09-04</title></rect>
+  <rect class="level-0" data-level="0" x="108" y="108" width="9" height="9" rx="2"><title>2025-09-05</title></rect>
+  <rect class="level-0" data-level="0" x="108" y="120" width="9" height="9" rx="2"><title>2025-09-06</title></rect>
+  <rect class="level-0" data-level="0" x="120" y="48" width="9" height="9" rx="2"><title>2025-09-07</title></rect>
+  <rect class="level-0" data-level="0" x="120" y="60" width="9" height="9" rx="2"><title>2025-09-08</title></rect>
+  <rect class="level-0" data-level="0" x="120" y="72" width="9" height="9" rx="2"><title>2025-09-09</title></rect>
+  <rect class="level-0" data-level="0" x="120" y="84" width="9" height="9" rx="2"><title>2025-09-10</title></rect>
+  <rect class="level-0" data-level="0" x="120" y="96" width="9" height="9" rx="2"><title>2025-09-11</title></rect>
+  <rect class="level-0" data-level="0" x="120" y="108" width="9" height="9" rx="2"><title>2025-09-12</title></rect>
+  <rect class="level-0" data-level="0" x="120" y="120" width="9" height="9" rx="2"><title>2025-09-13</title></rect>
+  <rect class="level-0" data-level="0" x="132" y="48" width="9" height="9" rx="2"><title>2025-09-14</title></rect>
+  <rect class="level-0" data-level="0" x="132" y="60" width="9" height="9" rx="2"><title>2025-09-15</title></rect>
+  <rect class="level-0" data-level="0" x="132" y="72" width="9" height="9" rx="2"><title>2025-09-16</title></rect>
+  <rect class="level-0" data-level="0" x="132" y="84" width="9" height="9" rx="2"><title>2025-09-17</title></rect>
+  <rect class="level-0" data-level="0" x="132" y="96" width="9" height="9" rx="2"><title>2025-09-18</title></rect>
+  <rect class="level-0" data-level="0" x="132" y="108" width="9" height="9" rx="2"><title>2025-09-19</title></rect>
+  <rect class="level-0" data-level="0" x="132" y="120" width="9" height="9" rx="2"><title>2025-09-20</title></rect>
+  <rect class="level-0" data-level="0" x="144" y="48" width="9" height="9" rx="2"><title>2025-09-21</title></rect>
+  <rect class="level-0" data-level="0" x="144" y="60" width="9" height="9" rx="2"><title>2025-09-22</title></rect>
+  <rect class="level-0" data-level="0" x="144" y="72" width="9" height="9" rx="2"><title>2025-09-23</title></rect>
+  <rect class="level-0" data-level="0" x="144" y="84" width="9" height="9" rx="2"><title>2025-09-24</title></rect>
+  <rect class="level-0" data-level="0" x="144" y="96" width="9" height="9" rx="2"><title>2025-09-25</title></rect>
+  <rect class="level-0" data-level="0" x="144" y="108" width="9" height="9" rx="2"><title>2025-09-26</title></rect>
+  <rect class="level-0" data-level="0" x="144" y="120" width="9" height="9" rx="2"><title>2025-09-27</title></rect>
+  <rect class="level-0" data-level="0" x="156" y="48" width="9" height="9" rx="2"><title>2025-09-28</title></rect>
+  <rect class="level-0" data-level="0" x="156" y="60" width="9" height="9" rx="2"><title>2025-09-29</title></rect>
+  <rect class="level-0" data-level="0" x="156" y="72" width="9" height="9" rx="2"><title>2025-09-30</title></rect>
+  <rect class="level-0" data-level="0" x="156" y="84" width="9" height="9" rx="2"><title>2025-10-01</title></rect>
+  <rect class="level-0" data-level="0" x="156" y="96" width="9" height="9" rx="2"><title>2025-10-02</title></rect>
+  <rect class="level-0" data-level="0" x="156" y="108" width="9" height="9" rx="2"><title>2025-10-03</title></rect>
+  <rect class="level-0" data-level="0" x="156" y="120" width="9" height="9" rx="2"><title>2025-10-04</title></rect>
+  <rect class="level-0" data-level="0" x="168" y="48" width="9" height="9" rx="2"><title>2025-10-05</title></rect>
+  <rect class="level-0" data-level="0" x="168" y="60" width="9" height="9" rx="2"><title>2025-10-06</title></rect>
+  <rect class="level-0" data-level="0" x="168" y="72" width="9" height="9" rx="2"><title>2025-10-07</title></rect>
+  <rect class="level-0" data-level="0" x="168" y="84" width="9" height="9" rx="2"><title>2025-10-08</title></rect>
+  <rect class="level-0" data-level="0" x="168" y="96" width="9" height="9" rx="2"><title>2025-10-09</title></rect>
+  <rect class="level-0" data-level="0" x="168" y="108" width="9" height="9" rx="2"><title>2025-10-10</title></rect>
+  <rect class="level-0" data-level="0" x="168" y="120" width="9" height="9" rx="2"><title>2025-10-11</title></rect>
+  <rect class="level-0" data-level="0" x="180" y="48" width="9" height="9" rx="2"><title>2025-10-12</title></rect>
+  <rect class="level-0" data-level="0" x="180" y="60" width="9" height="9" rx="2"><title>2025-10-13</title></rect>
+  <rect class="level-0" data-level="0" x="180" y="72" width="9" height="9" rx="2"><title>2025-10-14</title></rect>
+  <rect class="level-0" data-level="0" x="180" y="84" width="9" height="9" rx="2"><title>2025-10-15</title></rect>
+  <rect class="level-0" data-level="0" x="180" y="96" width="9" height="9" rx="2"><title>2025-10-16</title></rect>
+  <rect class="level-0" data-level="0" x="180" y="108" width="9" height="9" rx="2"><title>2025-10-17</title></rect>
+  <rect class="level-0" data-level="0" x="180" y="120" width="9" height="9" rx="2"><title>2025-10-18</title></rect>
+  <rect class="level-0" data-level="0" x="192" y="48" width="9" height="9" rx="2"><title>2025-10-19</title></rect>
+  <rect class="level-0" data-level="0" x="192" y="60" width="9" height="9" rx="2"><title>2025-10-20</title></rect>
+  <rect class="level-0" data-level="0" x="192" y="72" width="9" height="9" rx="2"><title>2025-10-21</title></rect>
+  <rect class="level-0" data-level="0" x="192" y="84" width="9" height="9" rx="2"><title>2025-10-22</title></rect>
+  <rect class="level-0" data-level="0" x="192" y="96" width="9" height="9" rx="2"><title>2025-10-23</title></rect>
+  <rect class="level-0" data-level="0" x="192" y="108" width="9" height="9" rx="2"><title>2025-10-24</title></rect>
+  <rect class="level-0" data-level="0" x="192" y="120" width="9" height="9" rx="2"><title>2025-10-25</title></rect>
+  <rect class="level-0" data-level="0" x="204" y="48" width="9" height="9" rx="2"><title>2025-10-26</title></rect>
+  <rect class="level-0" data-level="0" x="204" y="60" width="9" height="9" rx="2"><title>2025-10-27</title></rect>
+  <rect class="level-0" data-level="0" x="204" y="72" width="9" height="9" rx="2"><title>2025-10-28</title></rect>
+  <rect class="level-0" data-level="0" x="204" y="84" width="9" height="9" rx="2"><title>2025-10-29</title></rect>
+  <rect class="level-0" data-level="0" x="204" y="96" width="9" height="9" rx="2"><title>2025-10-30</title></rect>
+  <rect class="level-0" data-level="0" x="204" y="108" width="9" height="9" rx="2"><title>2025-10-31</title></rect>
+  <rect class="level-0" data-level="0" x="204" y="120" width="9" height="9" rx="2"><title>2025-11-01</title></rect>
+  <rect class="level-0" data-level="0" x="216" y="48" width="9" height="9" rx="2"><title>2025-11-02</title></rect>
+  <rect class="level-0" data-level="0" x="216" y="60" width="9" height="9" rx="2"><title>2025-11-03</title></rect>
+  <rect class="level-0" data-level="0" x="216" y="72" width="9" height="9" rx="2"><title>2025-11-04</title></rect>
+  <rect class="level-0" data-level="0" x="216" y="84" width="9" height="9" rx="2"><title>2025-11-05</title></rect>
+  <rect class="level-0" data-level="0" x="216" y="96" width="9" height="9" rx="2"><title>2025-11-06</title></rect>
+  <rect class="level-0" data-level="0" x="216" y="108" width="9" height="9" rx="2"><title>2025-11-07</title></rect>
+  <rect class="level-0" data-level="0" x="216" y="120" width="9" height="9" rx="2"><title>2025-11-08</title></rect>
+  <rect class="level-0" data-level="0" x="228" y="48" width="9" height="9" rx="2"><title>2025-11-09</title></rect>
+  <rect class="level-0" data-level="0" x="228" y="60" width="9" height="9" rx="2"><title>2025-11-10</title></rect>
+  <rect class="level-0" data-level="0" x="228" y="72" width="9" height="9" rx="2"><title>2025-11-11</title></rect>
+  <rect class="level-0" data-level="0" x="228" y="84" width="9" height="9" rx="2"><title>2025-11-12</title></rect>
+  <rect class="level-0" data-level="0" x="228" y="96" width="9" height="9" rx="2"><title>2025-11-13</title></rect>
+  <rect class="level-0" data-level="0" x="228" y="108" width="9" height="9" rx="2"><title>2025-11-14</title></rect>
+  <rect class="level-0" data-level="0" x="228" y="120" width="9" height="9" rx="2"><title>2025-11-15</title></rect>
+  <rect class="level-0" data-level="0" x="240" y="48" width="9" height="9" rx="2"><title>2025-11-16</title></rect>
+  <rect class="level-0" data-level="0" x="240" y="60" width="9" height="9" rx="2"><title>2025-11-17</title></rect>
+  <rect class="level-0" data-level="0" x="240" y="72" width="9" height="9" rx="2"><title>2025-11-18</title></rect>
+  <rect class="level-0" data-level="0" x="240" y="84" width="9" height="9" rx="2"><title>2025-11-19</title></rect>
+  <rect class="level-0" data-level="0" x="240" y="96" width="9" height="9" rx="2"><title>2025-11-20</title></rect>
+  <rect class="level-0" data-level="0" x="240" y="108" width="9" height="9" rx="2"><title>2025-11-21</title></rect>
+  <rect class="level-0" data-level="0" x="240" y="120" width="9" height="9" rx="2"><title>2025-11-22</title></rect>
+  <rect class="level-0" data-level="0" x="252" y="48" width="9" height="9" rx="2"><title>2025-11-23</title></rect>
+  <rect class="level-0" data-level="0" x="252" y="60" width="9" height="9" rx="2"><title>2025-11-24</title></rect>
+  <rect class="level-0" data-level="0" x="252" y="72" width="9" height="9" rx="2"><title>2025-11-25</title></rect>
+  <rect class="level-0" data-level="0" x="252" y="84" width="9" height="9" rx="2"><title>2025-11-26</title></rect>
+  <rect class="level-0" data-level="0" x="252" y="96" width="9" height="9" rx="2"><title>2025-11-27</title></rect>
+  <rect class="level-0" data-level="0" x="252" y="108" width="9" height="9" rx="2"><title>2025-11-28</title></rect>
+  <rect class="level-0" data-level="0" x="252" y="120" width="9" height="9" rx="2"><title>2025-11-29</title></rect>
+  <rect class="level-0" data-level="0" x="264" y="48" width="9" height="9" rx="2"><title>2025-11-30</title></rect>
+  <rect class="level-0" data-level="0" x="264" y="60" width="9" height="9" rx="2"><title>2025-12-01</title></rect>
+  <rect class="level-0" data-level="0" x="264" y="72" width="9" height="9" rx="2"><title>2025-12-02</title></rect>
+  <rect class="level-0" data-level="0" x="264" y="84" width="9" height="9" rx="2"><title>2025-12-03</title></rect>
+  <rect class="level-0" data-level="0" x="264" y="96" width="9" height="9" rx="2"><title>2025-12-04</title></rect>
+  <rect class="level-0" data-level="0" x="264" y="108" width="9" height="9" rx="2"><title>2025-12-05</title></rect>
+  <rect class="level-0" data-level="0" x="264" y="120" width="9" height="9" rx="2"><title>2025-12-06</title></rect>
+  <rect class="level-0" data-level="0" x="276" y="48" width="9" height="9" rx="2"><title>2025-12-07</title></rect>
+  <rect class="level-0" data-level="0" x="276" y="60" width="9" height="9" rx="2"><title>2025-12-08</title></rect>
+  <rect class="level-0" data-level="0" x="276" y="72" width="9" height="9" rx="2"><title>2025-12-09</title></rect>
+  <rect class="level-0" data-level="0" x="276" y="84" width="9" height="9" rx="2"><title>2025-12-10</title></rect>
+  <rect class="level-0" data-level="0" x="276" y="96" width="9" height="9" rx="2"><title>2025-12-11</title></rect>
+  <rect class="level-0" data-level="0" x="276" y="108" width="9" height="9" rx="2"><title>2025-12-12</title></rect>
+  <rect class="level-0" data-level="0" x="276" y="120" width="9" height="9" rx="2"><title>2025-12-13</title></rect>
+  <rect class="level-0" data-level="0" x="288" y="48" width="9" height="9" rx="2"><title>2025-12-14</title></rect>
+  <rect class="level-0" data-level="0" x="288" y="60" width="9" height="9" rx="2"><title>2025-12-15</title></rect>
+  <rect class="level-0" data-level="0" x="288" y="72" width="9" height="9" rx="2"><title>2025-12-16</title></rect>
+  <rect class="level-0" data-level="0" x="288" y="84" width="9" height="9" rx="2"><title>2025-12-17</title></rect>
+  <rect class="level-0" data-level="0" x="288" y="96" width="9" height="9" rx="2"><title>2025-12-18</title></rect>
+  <rect class="level-0" data-level="0" x="288" y="108" width="9" height="9" rx="2"><title>2025-12-19</title></rect>
+  <rect class="level-0" data-level="0" x="288" y="120" width="9" height="9" rx="2"><title>2025-12-20</title></rect>
+  <rect class="level-0" data-level="0" x="300" y="48" width="9" height="9" rx="2"><title>2025-12-21</title></rect>
+  <rect class="level-0" data-level="0" x="300" y="60" width="9" height="9" rx="2"><title>2025-12-22</title></rect>
+  <rect class="level-0" data-level="0" x="300" y="72" width="9" height="9" rx="2"><title>2025-12-23</title></rect>
+  <rect class="level-0" data-level="0" x="300" y="84" width="9" height="9" rx="2"><title>2025-12-24</title></rect>
+  <rect class="level-0" data-level="0" x="300" y="96" width="9" height="9" rx="2"><title>2025-12-25</title></rect>
+  <rect class="level-0" data-level="0" x="300" y="108" width="9" height="9" rx="2"><title>2025-12-26</title></rect>
+  <rect class="level-0" data-level="0" x="300" y="120" width="9" height="9" rx="2"><title>2025-12-27</title></rect>
+  <rect class="level-0" data-level="0" x="312" y="48" width="9" height="9" rx="2"><title>2025-12-28</title></rect>
+  <rect class="level-0" data-level="0" x="312" y="60" width="9" height="9" rx="2"><title>2025-12-29</title></rect>
+  <rect class="level-0" data-level="0" x="312" y="72" width="9" height="9" rx="2"><title>2025-12-30</title></rect>
+  <rect class="level-0" data-level="0" x="312" y="84" width="9" height="9" rx="2"><title>2025-12-31</title></rect>
+  <rect class="level-0" data-level="0" x="312" y="96" width="9" height="9" rx="2"><title>2026-01-01</title></rect>
+  <rect class="level-0" data-level="0" x="312" y="108" width="9" height="9" rx="2"><title>2026-01-02</title></rect>
+  <rect class="level-0" data-level="0" x="312" y="120" width="9" height="9" rx="2"><title>2026-01-03</title></rect>
+  <rect class="level-0" data-level="0" x="324" y="48" width="9" height="9" rx="2"><title>2026-01-04</title></rect>
+  <rect class="level-0" data-level="0" x="324" y="60" width="9" height="9" rx="2"><title>2026-01-05</title></rect>
+  <rect class="level-0" data-level="0" x="324" y="72" width="9" height="9" rx="2"><title>2026-01-06</title></rect>
+  <rect class="level-0" data-level="0" x="324" y="84" width="9" height="9" rx="2"><title>2026-01-07</title></rect>
+  <rect class="level-0" data-level="0" x="324" y="96" width="9" height="9" rx="2"><title>2026-01-08</title></rect>
+  <rect class="level-0" data-level="0" x="324" y="108" width="9" height="9" rx="2"><title>2026-01-09</title></rect>
+  <rect class="level-0" data-level="0" x="324" y="120" width="9" height="9" rx="2"><title>2026-01-10</title></rect>
+  <rect class="level-0" data-level="0" x="336" y="48" width="9" height="9" rx="2"><title>2026-01-11</title></rect>
+  <rect class="level-0" data-level="0" x="336" y="60" width="9" height="9" rx="2"><title>2026-01-12</title></rect>
+  <rect class="level-0" data-level="0" x="336" y="72" width="9" height="9" rx="2"><title>2026-01-13</title></rect>
+  <rect class="level-0" data-level="0" x="336" y="84" width="9" height="9" rx="2"><title>2026-01-14</title></rect>
+  <rect class="level-0" data-level="0" x="336" y="96" width="9" height="9" rx="2"><title>2026-01-15</title></rect>
+  <rect class="level-0" data-level="0" x="336" y="108" width="9" height="9" rx="2"><title>2026-01-16</title></rect>
+  <rect class="level-0" data-level="0" x="336" y="120" width="9" height="9" rx="2"><title>2026-01-17</title></rect>
+  <rect class="level-0" data-level="0" x="348" y="48" width="9" height="9" rx="2"><title>2026-01-18</title></rect>
+  <rect class="level-0" data-level="0" x="348" y="60" width="9" height="9" rx="2"><title>2026-01-19</title></rect>
+  <rect class="level-0" data-level="0" x="348" y="72" width="9" height="9" rx="2"><title>2026-01-20</title></rect>
+  <rect class="level-0" data-level="0" x="348" y="84" width="9" height="9" rx="2"><title>2026-01-21</title></rect>
+  <rect class="level-0" data-level="0" x="348" y="96" width="9" height="9" rx="2"><title>2026-01-22</title></rect>
+  <rect class="level-0" data-level="0" x="348" y="108" width="9" height="9" rx="2"><title>2026-01-23</title></rect>
+  <rect class="level-0" data-level="0" x="348" y="120" width="9" height="9" rx="2"><title>2026-01-24</title></rect>
+  <rect class="level-0" data-level="0" x="360" y="48" width="9" height="9" rx="2"><title>2026-01-25</title></rect>
+  <rect class="level-0" data-level="0" x="360" y="60" width="9" height="9" rx="2"><title>2026-01-26</title></rect>
+  <rect class="level-0" data-level="0" x="360" y="72" width="9" height="9" rx="2"><title>2026-01-27</title></rect>
+  <rect class="level-0" data-level="0" x="360" y="84" width="9" height="9" rx="2"><title>2026-01-28</title></rect>
+  <rect class="level-0" data-level="0" x="360" y="96" width="9" height="9" rx="2"><title>2026-01-29</title></rect>
+  <rect class="level-0" data-level="0" x="360" y="108" width="9" height="9" rx="2"><title>2026-01-30</title></rect>
+  <rect class="level-0" data-level="0" x="360" y="120" width="9" height="9" rx="2"><title>2026-01-31</title></rect>
+  <rect class="level-0" data-level="0" x="372" y="48" width="9" height="9" rx="2"><title>2026-02-01</title></rect>
+  <rect class="level-0" data-level="0" x="372" y="60" width="9" height="9" rx="2"><title>2026-02-02</title></rect>
+  <rect class="level-0" data-level="0" x="372" y="72" width="9" height="9" rx="2"><title>2026-02-03</title></rect>
+  <rect class="level-0" data-level="0" x="372" y="84" width="9" height="9" rx="2"><title>2026-02-04</title></rect>
+  <rect class="level-0" data-level="0" x="372" y="96" width="9" height="9" rx="2"><title>2026-02-05</title></rect>
+  <rect class="level-0" data-level="0" x="372" y="108" width="9" height="9" rx="2"><title>2026-02-06</title></rect>
+  <rect class="level-0" data-level="0" x="372" y="120" width="9" height="9" rx="2"><title>2026-02-07</title></rect>
+  <rect class="level-0" data-level="0" x="384" y="48" width="9" height="9" rx="2"><title>2026-02-08</title></rect>
+  <rect class="level-0" data-level="0" x="384" y="60" width="9" height="9" rx="2"><title>2026-02-09</title></rect>
+  <rect class="level-0" data-level="0" x="384" y="72" width="9" height="9" rx="2"><title>2026-02-10</title></rect>
+  <rect class="level-0" data-level="0" x="384" y="84" width="9" height="9" rx="2"><title>2026-02-11</title></rect>
+  <rect class="level-0" data-level="0" x="384" y="96" width="9" height="9" rx="2"><title>2026-02-12</title></rect>
+  <rect class="level-0" data-level="0" x="384" y="108" width="9" height="9" rx="2"><title>2026-02-13</title></rect>
+  <rect class="level-0" data-level="0" x="384" y="120" width="9" height="9" rx="2"><title>2026-02-14</title></rect>
+  <rect class="level-0" data-level="0" x="396" y="48" width="9" height="9" rx="2"><title>2026-02-15</title></rect>
+  <rect class="level-0" data-level="0" x="396" y="60" width="9" height="9" rx="2"><title>2026-02-16</title></rect>
+  <rect class="level-0" data-level="0" x="396" y="72" width="9" height="9" rx="2"><title>2026-02-17</title></rect>
+  <rect class="level-0" data-level="0" x="396" y="84" width="9" height="9" rx="2"><title>2026-02-18</title></rect>
+  <rect class="level-0" data-level="0" x="396" y="96" width="9" height="9" rx="2"><title>2026-02-19</title></rect>
+  <rect class="level-0" data-level="0" x="396" y="108" width="9" height="9" rx="2"><title>2026-02-20</title></rect>
+  <rect class="level-0" data-level="0" x="396" y="120" width="9" height="9" rx="2"><title>2026-02-21</title></rect>
+  <rect class="level-0" data-level="0" x="408" y="48" width="9" height="9" rx="2"><title>2026-02-22</title></rect>
+  <rect class="level-0" data-level="0" x="408" y="60" width="9" height="9" rx="2"><title>2026-02-23</title></rect>
+  <rect class="level-0" data-level="0" x="408" y="72" width="9" height="9" rx="2"><title>2026-02-24</title></rect>
+  <rect class="level-0" data-level="0" x="408" y="84" width="9" height="9" rx="2"><title>2026-02-25</title></rect>
+  <rect class="level-0" data-level="0" x="408" y="96" width="9" height="9" rx="2"><title>2026-02-26</title></rect>
+  <rect class="level-0" data-level="0" x="408" y="108" width="9" height="9" rx="2"><title>2026-02-27</title></rect>
+  <rect class="level-0" data-level="0" x="408" y="120" width="9" height="9" rx="2"><title>2026-02-28</title></rect>
+  <rect class="level-0" data-level="0" x="420" y="48" width="9" height="9" rx="2"><title>2026-03-01</title></rect>
+  <rect class="level-0" data-level="0" x="420" y="60" width="9" height="9" rx="2"><title>2026-03-02</title></rect>
+  <rect class="level-0" data-level="0" x="420" y="72" width="9" height="9" rx="2"><title>2026-03-03</title></rect>
+  <rect class="level-0" data-level="0" x="420" y="84" width="9" height="9" rx="2"><title>2026-03-04</title></rect>
+  <rect class="level-0" data-level="0" x="420" y="96" width="9" height="9" rx="2"><title>2026-03-05</title></rect>
+  <rect class="level-0" data-level="0" x="420" y="108" width="9" height="9" rx="2"><title>2026-03-06</title></rect>
+  <rect class="level-0" data-level="0" x="420" y="120" width="9" height="9" rx="2"><title>2026-03-07</title></rect>
+  <rect class="level-0" data-level="0" x="432" y="48" width="9" height="9" rx="2"><title>2026-03-08</title></rect>
+  <rect class="level-0" data-level="0" x="432" y="60" width="9" height="9" rx="2"><title>2026-03-09</title></rect>
+  <rect class="level-0" data-level="0" x="432" y="72" width="9" height="9" rx="2"><title>2026-03-10</title></rect>
+  <rect class="level-0" data-level="0" x="432" y="84" width="9" height="9" rx="2"><title>2026-03-11</title></rect>
+  <rect class="level-0" data-level="0" x="432" y="96" width="9" height="9" rx="2"><title>2026-03-12</title></rect>
+  <rect class="level-0" data-level="0" x="432" y="108" width="9" height="9" rx="2"><title>2026-03-13</title></rect>
+  <rect class="level-0" data-level="0" x="432" y="120" width="9" height="9" rx="2"><title>2026-03-14</title></rect>
+  <rect class="level-0" data-level="0" x="444" y="48" width="9" height="9" rx="2"><title>2026-03-15</title></rect>
+  <rect class="level-0" data-level="0" x="444" y="60" width="9" height="9" rx="2"><title>2026-03-16</title></rect>
+  <rect class="level-0" data-level="0" x="444" y="72" width="9" height="9" rx="2"><title>2026-03-17</title></rect>
+  <rect class="level-0" data-level="0" x="444" y="84" width="9" height="9" rx="2"><title>2026-03-18</title></rect>
+  <rect class="level-0" data-level="0" x="444" y="96" width="9" height="9" rx="2"><title>2026-03-19</title></rect>
+  <rect class="level-0" data-level="0" x="444" y="108" width="9" height="9" rx="2"><title>2026-03-20</title></rect>
+  <rect class="level-0" data-level="0" x="444" y="120" width="9" height="9" rx="2"><title>2026-03-21</title></rect>
+  <rect class="level-0" data-level="0" x="456" y="48" width="9" height="9" rx="2"><title>2026-03-22</title></rect>
+  <rect class="level-0" data-level="0" x="456" y="60" width="9" height="9" rx="2"><title>2026-03-23</title></rect>
+  <rect class="level-0" data-level="0" x="456" y="72" width="9" height="9" rx="2"><title>2026-03-24</title></rect>
+  <rect class="level-0" data-level="0" x="456" y="84" width="9" height="9" rx="2"><title>2026-03-25</title></rect>
+  <rect class="level-0" data-level="0" x="456" y="96" width="9" height="9" rx="2"><title>2026-03-26</title></rect>
+  <rect class="level-0" data-level="0" x="456" y="108" width="9" height="9" rx="2"><title>2026-03-27</title></rect>
+  <rect class="level-0" data-level="0" x="456" y="120" width="9" height="9" rx="2"><title>2026-03-28</title></rect>
+  <rect class="level-0" data-level="0" x="468" y="48" width="9" height="9" rx="2"><title>2026-03-29</title></rect>
+  <rect class="level-0" data-level="0" x="468" y="60" width="9" height="9" rx="2"><title>2026-03-30</title></rect>
+  <rect class="level-0" data-level="0" x="468" y="72" width="9" height="9" rx="2"><title>2026-03-31</title></rect>
+  <rect class="level-0" data-level="0" x="468" y="84" width="9" height="9" rx="2"><title>2026-04-01</title></rect>
+  <rect class="level-0" data-level="0" x="468" y="96" width="9" height="9" rx="2"><title>2026-04-02</title></rect>
+  <rect class="level-0" data-level="0" x="468" y="108" width="9" height="9" rx="2"><title>2026-04-03</title></rect>
+  <rect class="level-0" data-level="0" x="468" y="120" width="9" height="9" rx="2"><title>2026-04-04</title></rect>
+  <rect class="level-0" data-level="0" x="480" y="48" width="9" height="9" rx="2"><title>2026-04-05</title></rect>
+  <rect class="level-0" data-level="0" x="480" y="60" width="9" height="9" rx="2"><title>2026-04-06</title></rect>
+  <rect class="level-0" data-level="0" x="480" y="72" width="9" height="9" rx="2"><title>2026-04-07</title></rect>
+  <rect class="level-0" data-level="0" x="480" y="84" width="9" height="9" rx="2"><title>2026-04-08</title></rect>
+  <rect class="level-0" data-level="0" x="480" y="96" width="9" height="9" rx="2"><title>2026-04-09</title></rect>
+  <rect class="level-0" data-level="0" x="480" y="108" width="9" height="9" rx="2"><title>2026-04-10</title></rect>
+  <rect class="level-0" data-level="0" x="480" y="120" width="9" height="9" rx="2"><title>2026-04-11</title></rect>
+  <rect class="level-0" data-level="0" x="492" y="48" width="9" height="9" rx="2"><title>2026-04-12</title></rect>
+  <rect class="level-0" data-level="0" x="492" y="60" width="9" height="9" rx="2"><title>2026-04-13</title></rect>
+  <rect class="level-0" data-level="0" x="492" y="72" width="9" height="9" rx="2"><title>2026-04-14</title></rect>
+  <rect class="level-0" data-level="0" x="492" y="84" width="9" height="9" rx="2"><title>2026-04-15</title></rect>
+  <rect class="level-0" data-level="0" x="492" y="96" width="9" height="9" rx="2"><title>2026-04-16</title></rect>
+  <rect class="level-0" data-level="0" x="492" y="108" width="9" height="9" rx="2"><title>2026-04-17</title></rect>
+  <rect class="level-0" data-level="0" x="492" y="120" width="9" height="9" rx="2"><title>2026-04-18</title></rect>
+  <rect class="level-0" data-level="0" x="504" y="48" width="9" height="9" rx="2"><title>2026-04-19</title></rect>
+  <rect class="level-0" data-level="0" x="504" y="60" width="9" height="9" rx="2"><title>2026-04-20</title></rect>
+  <rect class="level-0" data-level="0" x="504" y="72" width="9" height="9" rx="2"><title>2026-04-21</title></rect>
+  <rect class="level-0" data-level="0" x="504" y="84" width="9" height="9" rx="2"><title>2026-04-22</title></rect>
+  <rect class="level-0" data-level="0" x="504" y="96" width="9" height="9" rx="2"><title>2026-04-23</title></rect>
+  <rect class="level-0" data-level="0" x="504" y="108" width="9" height="9" rx="2"><title>2026-04-24</title></rect>
+  <rect class="level-0" data-level="0" x="504" y="120" width="9" height="9" rx="2"><title>2026-04-25</title></rect>
+  <rect class="level-0" data-level="0" x="516" y="48" width="9" height="9" rx="2"><title>2026-04-26</title></rect>
+  <rect class="level-0" data-level="0" x="516" y="60" width="9" height="9" rx="2"><title>2026-04-27</title></rect>
+  <rect class="level-0" data-level="0" x="516" y="72" width="9" height="9" rx="2"><title>2026-04-28</title></rect>
+  <rect class="level-0" data-level="0" x="516" y="84" width="9" height="9" rx="2"><title>2026-04-29</title></rect>
+  <rect class="level-0" data-level="0" x="516" y="96" width="9" height="9" rx="2"><title>2026-04-30</title></rect>
+  <rect class="level-0" data-level="0" x="516" y="108" width="9" height="9" rx="2"><title>2026-05-01</title></rect>
+  <rect class="level-0" data-level="0" x="516" y="120" width="9" height="9" rx="2"><title>2026-05-02</title></rect>
+  <rect class="level-0" data-level="0" x="528" y="48" width="9" height="9" rx="2"><title>2026-05-03</title></rect>
+  <rect class="level-0" data-level="0" x="528" y="60" width="9" height="9" rx="2"><title>2026-05-04</title></rect>
+  <rect class="level-0" data-level="0" x="528" y="72" width="9" height="9" rx="2"><title>2026-05-05</title></rect>
+  <rect class="level-0" data-level="0" x="528" y="84" width="9" height="9" rx="2"><title>2026-05-06</title></rect>
+  <rect class="level-0" data-level="0" x="528" y="96" width="9" height="9" rx="2"><title>2026-05-07</title></rect>
+  <rect class="level-0" data-level="0" x="528" y="108" width="9" height="9" rx="2"><title>2026-05-08</title></rect>
+  <rect class="level-0" data-level="0" x="528" y="120" width="9" height="9" rx="2"><title>2026-05-09</title></rect>
+  <rect class="level-0" data-level="0" x="540" y="48" width="9" height="9" rx="2"><title>2026-05-10</title></rect>
+  <rect class="level-0" data-level="0" x="540" y="60" width="9" height="9" rx="2"><title>2026-05-11</title></rect>
+  <rect class="level-0" data-level="0" x="540" y="72" width="9" height="9" rx="2"><title>2026-05-12</title></rect>
+  <rect class="level-0" data-level="0" x="540" y="84" width="9" height="9" rx="2"><title>2026-05-13</title></rect>
+  <rect class="level-0" data-level="0" x="540" y="96" width="9" height="9" rx="2"><title>2026-05-14</title></rect>
+  <rect class="level-0" data-level="0" x="540" y="108" width="9" height="9" rx="2"><title>2026-05-15</title></rect>
+  <rect class="level-0" data-level="0" x="540" y="120" width="9" height="9" rx="2"><title>2026-05-16</title></rect>
+  <rect class="level-0" data-level="0" x="552" y="48" width="9" height="9" rx="2"><title>2026-05-17</title></rect>
+  <rect class="level-0" data-level="0" x="552" y="60" width="9" height="9" rx="2"><title>2026-05-18</title></rect>
+  <rect class="level-0" data-level="0" x="552" y="72" width="9" height="9" rx="2"><title>2026-05-19</title></rect>
+  <rect class="level-0" data-level="0" x="552" y="84" width="9" height="9" rx="2"><title>2026-05-20</title></rect>
+  <rect class="level-0" data-level="0" x="552" y="96" width="9" height="9" rx="2"><title>2026-05-21</title></rect>
+  <rect class="level-0" data-level="0" x="552" y="108" width="9" height="9" rx="2"><title>2026-05-22</title></rect>
+  <rect class="level-0" data-level="0" x="552" y="120" width="9" height="9" rx="2"><title>2026-05-23</title></rect>
+  <rect class="level-0" data-level="0" x="564" y="48" width="9" height="9" rx="2"><title>2026-05-24</title></rect>
+  <rect class="level-0" data-level="0" x="564" y="60" width="9" height="9" rx="2"><title>2026-05-25</title></rect>
+  <rect class="level-0" data-level="0" x="564" y="72" width="9" height="9" rx="2"><title>2026-05-26</title></rect>
+  <rect class="level-0" data-level="0" x="564" y="84" width="9" height="9" rx="2"><title>2026-05-27</title></rect>
+  <rect class="level-0" data-level="0" x="564" y="96" width="9" height="9" rx="2"><title>2026-05-28</title></rect>
+  <rect class="level-0" data-level="0" x="564" y="108" width="9" height="9" rx="2"><title>2026-05-29</title></rect>
+  <rect class="level-0" data-level="0" x="564" y="120" width="9" height="9" rx="2"><title>2026-05-30</title></rect>
+  <rect class="level-0" data-level="0" x="576" y="48" width="9" height="9" rx="2"><title>2026-05-31</title></rect>
+  <rect class="level-0" data-level="0" x="576" y="60" width="9" height="9" rx="2"><title>2026-06-01</title></rect>
+  <rect class="level-0" data-level="0" x="576" y="72" width="9" height="9" rx="2"><title>2026-06-02</title></rect>
+  <rect class="level-0" data-level="0" x="576" y="84" width="9" height="9" rx="2"><title>2026-06-03</title></rect>
+  <rect class="level-0" data-level="0" x="576" y="96" width="9" height="9" rx="2"><title>2026-06-04</title></rect>
+  <rect class="level-0" data-level="0" x="576" y="108" width="9" height="9" rx="2"><title>2026-06-05</title></rect>
+  <rect class="level-0" data-level="0" x="576" y="120" width="9" height="9" rx="2"><title>2026-06-06</title></rect>
+  <rect class="level-0" data-level="0" x="588" y="48" width="9" height="9" rx="2"><title>2026-06-07</title></rect>
+  <rect class="level-0" data-level="0" x="588" y="60" width="9" height="9" rx="2"><title>2026-06-08</title></rect>
+  <rect class="level-0" data-level="0" x="588" y="72" width="9" height="9" rx="2"><title>2026-06-09</title></rect>
+  <rect class="level-0" data-level="0" x="588" y="84" width="9" height="9" rx="2"><title>2026-06-10</title></rect>
+  <rect class="level-0" data-level="0" x="588" y="96" width="9" height="9" rx="2"><title>2026-06-11</title></rect>
+  <rect class="level-0" data-level="0" x="588" y="108" width="9" height="9" rx="2"><title>2026-06-12</title></rect>
+  <rect class="level-0" data-level="0" x="588" y="120" width="9" height="9" rx="2"><title>2026-06-13</title></rect>
+  <rect class="level-0" data-level="0" x="600" y="48" width="9" height="9" rx="2"><title>2026-06-14</title></rect>
+  <rect class="level-0" data-level="0" x="600" y="60" width="9" height="9" rx="2"><title>2026-06-15</title></rect>
+  <rect class="level-0" data-level="0" x="600" y="72" width="9" height="9" rx="2"><title>2026-06-16</title></rect>
+  <rect class="level-0" data-level="0" x="600" y="84" width="9" height="9" rx="2"><title>2026-06-17</title></rect>
+  <rect class="level-0" data-level="0" x="600" y="96" width="9" height="9" rx="2"><title>2026-06-18</title></rect>
+  <rect class="level-0" data-level="0" x="600" y="108" width="9" height="9" rx="2"><title>2026-06-19</title></rect>
+  <rect class="level-0" data-level="0" x="600" y="120" width="9" height="9" rx="2"><title>2026-06-20</title></rect>
+  <rect class="level-0" data-level="0" x="612" y="48" width="9" height="9" rx="2"><title>2026-06-21</title></rect>
+  <rect class="level-0" data-level="0" x="612" y="60" width="9" height="9" rx="2"><title>2026-06-22</title></rect>
+  <rect class="level-0" data-level="0" x="612" y="72" width="9" height="9" rx="2"><title>2026-06-23</title></rect>
+  <rect class="level-0" data-level="0" x="612" y="84" width="9" height="9" rx="2"><title>2026-06-24</title></rect>
+  <rect class="level-0" data-level="0" x="612" y="96" width="9" height="9" rx="2"><title>2026-06-25</title></rect>
+  <rect class="level-0" data-level="0" x="612" y="108" width="9" height="9" rx="2"><title>2026-06-26</title></rect>
+  <rect class="level-0" data-level="0" x="612" y="120" width="9" height="9" rx="2"><title>2026-06-27</title></rect>
+  <rect class="level-0" data-level="0" x="624" y="48" width="9" height="9" rx="2"><title>2026-06-28</title></rect>
+  <rect class="level-0" data-level="0" x="624" y="60" width="9" height="9" rx="2"><title>2026-06-29</title></rect>
+  <rect class="level-0" data-level="0" x="624" y="72" width="9" height="9" rx="2"><title>2026-06-30</title></rect>
+  <rect class="level-0" data-level="0" x="624" y="84" width="9" height="9" rx="2"><title>2026-07-01</title></rect>
+  <rect class="level-0" data-level="0" x="624" y="96" width="9" height="9" rx="2"><title>2026-07-02</title></rect>
+  <rect class="level-0" data-level="0" x="624" y="108" width="9" height="9" rx="2"><title>2026-07-03</title></rect>
+  <rect class="level-0" data-level="0" x="624" y="120" width="9" height="9" rx="2"><title>2026-07-04</title></rect>
+  <rect class="level-0" data-level="0" x="636" y="48" width="9" height="9" rx="2"><title>2026-07-05</title></rect>
+  <rect class="level-0" data-level="0" x="636" y="60" width="9" height="9" rx="2"><title>2026-07-06</title></rect>
+  <rect class="level-0" data-level="0" x="636" y="72" width="9" height="9" rx="2"><title>2026-07-07</title></rect>
+  <rect class="level-0" data-level="0" x="636" y="84" width="9" height="9" rx="2"><title>2026-07-08</title></rect>
+  <rect class="level-0" data-level="0" x="636" y="96" width="9" height="9" rx="2"><title>2026-07-09</title></rect>
+  <rect class="level-0" data-level="0" x="636" y="108" width="9" height="9" rx="2"><title>2026-07-10</title></rect>
+  <rect class="level-0" data-level="0" x="636" y="120" width="9" height="9" rx="2"><title>2026-07-11</title></rect>
+  <rect class="level-0" data-level="0" x="648" y="48" width="9" height="9" rx="2"><title>2026-07-12</title></rect>
+  <rect class="level-0" data-level="0" x="648" y="60" width="9" height="9" rx="2"><title>2026-07-13</title></rect>
+  <rect class="level-0" data-level="0" x="648" y="72" width="9" height="9" rx="2"><title>2026-07-14</title></rect>
+  <rect class="level-0" data-level="0" x="648" y="84" width="9" height="9" rx="2"><title>2026-07-15</title></rect>
+  <rect class="level-0" data-level="0" x="648" y="96" width="9" height="9" rx="2"><title>2026-07-16</title></rect>
+  <rect class="level-4" data-level="4" x="648" y="108" width="9" height="9" rx="2"><title>2026-07-17</title></rect>
+</svg>

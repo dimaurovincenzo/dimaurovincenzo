@@ -2,37 +2,31 @@
 
 ## Backend Engineer & Software Architect
 
-Progetto e sviluppo sistemi backend affidabili, integrazioni complesse e piattaforme realtime. Trasformo requisiti di business in software sicuro, osservabile e mantenibile.
+Progetto sistemi backend, integrazioni complesse e piattaforme realtime affidabili. Trasformo requisiti di business in software sicuro, osservabile e mantenibile.
 
 [Portfolio](https://vincodelab.com) · [LinkedIn](https://www.linkedin.com/in/vdmweb/) · [Email](mailto:info@vincodelab.com)
 
-## Cosa progetto
+## Ambiti di lavoro
 
-- API e piattaforme backend modulari e scalabili.
-- Integrazioni con provider esterni, code di messaggi e flussi di normalizzazione dati.
-- Sistemi realtime con WebSocket, cache, aggiornamenti incrementali e risincronizzazione.
-- Servizi osservabili, resilienti e semplici da mantenere in produzione.
+- **Backend e sistemi distribuiti** — servizi modulari, API e confini applicativi chiari.
+- **Integrazioni e realtime** — provider esterni, code di messaggi, WebSocket e sincronizzazione dei dati.
+- **Affidabilità operativa** — osservabilità, resilienza, sicurezza e prestazioni sostenibili in produzione.
 
-## Competenze principali
+## Tecnologie
 
-- **Backend:** Go, TypeScript/Node.js, Python.
-- **Dati:** PostgreSQL, Redis, modellazione e ottimizzazione.
-- **Integrazioni:** REST API, WebSocket, code di messaggi e provider esterni.
-- **Infrastruttura:** Docker, Linux, CI/CD, logging e monitoraggio.
-- **Architettura:** sistemi distribuiti, resilienza, sicurezza e scalabilità.
+Go · TypeScript/Node.js · Python · PostgreSQL · Redis · Docker · Linux
 
 ## Esperienza e impatto
 
-- Progettazione di piattaforme backend con confini chiari tra dominio, persistenza, cache e distribuzione realtime.
-- Integrazione di servizi esterni e trasformazione di flussi eterogenei in contratti applicativi coerenti.
-- Ottimizzazione di PostgreSQL e Redis per coerenza, latenza e affidabilità operativa.
-- Containerizzazione, deployment Linux e introduzione di logging e monitoraggio persistenti.
-- Applicazione di modelli AI e automazioni a processi software concreti.
+- Definisco architetture che separano dominio, persistenza, cache e distribuzione realtime.
+- Rendo coerenti flussi eterogenei provenienti da API, provider e sistemi legacy.
+- Ottimizzo PostgreSQL e Redis con attenzione a consistenza, latenza e comportamento operativo.
+- Accompagno i servizi fino alla produzione con deployment ripetibili, logging e monitoraggio.
 
 ## Attività GitHub pubblica
 
-![Statistiche dell’attività GitHub pubblica di Vincenzo Di Mauro](./profile/stats.svg)
+![Calendario dell'attività GitHub pubblica di Vincenzo Di Mauro](./profile/stats.svg)
 
-## Contatti
+## Parliamone
 
-Se stai progettando una piattaforma backend, un’integrazione complessa o un sistema realtime, puoi contattarmi tramite [email](mailto:info@vincodelab.com) o [LinkedIn](https://www.linkedin.com/in/vdmweb/).
+Collaboro con team e aziende su piattaforme backend, integrazioni e sistemi realtime. Per una collaborazione tecnica, una consulenza o un'opportunità professionale puoi contattarmi tramite [email](mailto:info@vincodelab.com) o [LinkedIn](https://www.linkedin.com/in/vdmweb/).
