@@ -9,7 +9,7 @@
         aria-labelledby="descId"
       >
         <title id="titleId">Attivit&#224; GitHub pubblica, Rank: C</title>
-        <desc id="descId">Stelle totali: 0, Commit totali  : 14, PR totali: 0, Segnalazioni totali: 0, Ha contribuito a (l'anno scorso): 0</desc>
+        <desc id="descId">Stelle totali: 0, Commit totali  : 4, PR totali: 0, Segnalazioni totali: 0, Ha contribuito a (l'anno scorso): 0</desc>
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
@@ -73,7 +73,7 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 249.01889990502016;
+        stroke-dashoffset: 249.30743966739362;
       }
     }
   
@@ -166,7 +166,7 @@
         x="224.01"
         y="12.5"
         data-testid="commits"
-      >14</text>
+      >4</text>
     </g>
   </g><g transform="translate(0, 50)">
     <g class="stagger" style="animation-delay: 750ms" transform="translate(25, 0)">
