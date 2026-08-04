@@ -104,19 +104,27 @@ export async function generateActivity({
   generatedOn = new Date().toISOString().slice(0, 10),
   requestTimeoutMs = 15_000,
 }) {
+  const requestController = new AbortController();
+  let requestTimedOut = false;
+  const requestTimeout = setTimeout(() => {
+    requestTimedOut = true;
+    requestController.abort();
+  }, requestTimeoutMs);
   let response;
   try {
     response = await fetchImpl(`https://github.com/users/${encodeURIComponent(username)}/contributions`, {
       headers: { Accept: "text/html", "User-Agent": "github-profile-activity-generator" },
-      signal: AbortSignal.timeout(requestTimeoutMs),
+      signal: requestController.signal,
     });
   } catch (error) {
-    if (error?.name === "TimeoutError") {
+    if (requestTimedOut) {
       throw new Error(`GitHub contributions request timed out after ${requestTimeoutMs}ms`, {
         cause: error,
       });
     }
     throw error;
+  } finally {
+    clearTimeout(requestTimeout);
   }
   if (!response.ok) {
     throw new Error(`GitHub contributions request failed with HTTP ${response.status}`);
